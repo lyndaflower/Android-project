@@ -7,35 +7,35 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:src="@drawable/rest"
+        android:src="@drawable/home"
         android:scaleType="centerCrop" />
 
 
 
 
     <TextView
-        android:id="@+id/appNameTextView"
+        android:id="@+id/view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
         android:fontFamily="sans-serif-black"
-        android:text="perfum"
         android:textColor="@color/colorTextIcons"
         android:textSize="50sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:text="LANCOME "/>
 
     <Button
         android:id="@+id/findButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="0dp"
         android:background="@color/colorAccent"
-        android:text="Create challenger"
+        android:text="Discover"
+
         android:textColor="@color/colorTextIcons" />
 
 
