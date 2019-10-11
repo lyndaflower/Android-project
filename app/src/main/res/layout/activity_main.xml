@@ -26,17 +26,17 @@
         android:textSize="50sp"
         android:textStyle="bold" />
 
-<!--    <Button-->
-<!--        android:id="@+id/findButton"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignStart="@+id/imageView"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_marginStart="0dp"-->
-<!--        android:background="@color/colorAccent"-->
-<!--        android:text="Create challenger"-->
-<!--        android:textColor="@color/colorTextIcons" />-->
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:background="@color/colorAccent"
+        android:text="Create challenger"
+        android:textColor="@color/colorTextIcons" />
 
 
 </RelativeLayout>
