@@ -8,19 +8,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class PhotoActivity extends AppCompatActivity {
-
+    @BindView(R.id.getGrid) TextView mTextView;
     @BindView(R.id.shop) Button mFill;
 
     GridView gridView;
    private int [] picture = { R.drawable.image4,
                               R.drawable.image8,
-                              R.drawable.image2,
+                              R.drawable.image7,
                               R.drawable.image3,
                               R.drawable.iiiii,
                               R.drawable.image5,
@@ -46,8 +47,8 @@ public class PhotoActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent fill = new Intent(PhotoActivity.this,AppActivity.class);
                 startActivity(fill);
-                Toast()
             }
         });
+
     }
 }

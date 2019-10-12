@@ -6,14 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".PhotoActivity">
 
+
     <TextView
         android:text="Perfumes are the feelings of flowers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/get-grid"
+        android:id="@+id/getGrid"
         android:layout_marginTop="12dp"
         android:layout_centerHorizontal="true"
         android:textSize="20sp" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toast"
+        android:textSize="10sp" />
 
     <GridView
         android:id="@+id/myGrid"
