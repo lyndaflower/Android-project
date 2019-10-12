@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         roxanneView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gallery = new Intent(MainActivity.this, GalleryActivity.class );
+                Intent gallery = new Intent(MainActivity.this, PhotoActivity.class );
                 startActivity(gallery);
 
             }
