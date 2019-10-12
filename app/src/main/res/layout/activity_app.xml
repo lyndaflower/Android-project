@@ -9,14 +9,17 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:src="@drawable/image2"
+        android:src="@drawable/choice"
         android:scaleType="centerCrop" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
- />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/arapey"
+        android:text="Perfume is the key to our memories"
+        android:textSize="30dp" />
 
     <EditText
         android:id="@+id/editText1"
@@ -26,8 +29,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="50dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
         android:ems="10"
         android:hint="Type your name "
         android:inputType="textPersonName"
@@ -75,7 +78,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@color/colorAccent"
-        android:text="Create challenger"
+        android:text=""
         android:textColor="@color/colorTextIcons" />
 
 
