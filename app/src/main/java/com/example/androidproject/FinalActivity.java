@@ -31,9 +31,9 @@ public class FinalActivity extends AppCompatActivity {
         String location = choice.getStringExtra("location");
         String type = choice.getStringExtra("type");
 
-        mView.setText("name : " + name );
-        mMake.setText("email : " + email);
-        mView1.setText("location : " + location);
-        mMake2.setText("type : " +type);
+        mView.setText("Name : " + name );
+        mMake.setText("Email : " + email);
+        mView1.setText("Location : " + location);
+        mMake2.setText("Type : " +type);
     }
 }
