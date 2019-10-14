@@ -41,6 +41,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
+        android:fontFamily="@font/arapey"
         android:background="@color/colorAccent"
         android:text="shop "
         android:textColor="@color/colorTextIcons" />
