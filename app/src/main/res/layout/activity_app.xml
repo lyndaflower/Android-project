@@ -52,7 +52,7 @@
         android:fontFamily="@font/arapey"
         android:ems="10"
         android:hint="Type your email"
-        android:inputType="numberPassword" />
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/text3"
@@ -66,7 +66,7 @@
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Type location "
-        android:inputType="textEmailAddress" />
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/text4"
@@ -80,7 +80,7 @@
         android:layout_marginTop="18dp"
         android:ems="10"
         android:hint="Name of parfume"
-        android:inputType="date" />
+        android:inputType="text" />
     <Button
         android:id="@+id/makeChoice"
         android:layout_width="match_parent"
