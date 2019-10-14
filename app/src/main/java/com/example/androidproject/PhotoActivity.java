@@ -27,6 +27,10 @@ public class PhotoActivity extends AppCompatActivity {
                               R.drawable.image3,
                               R.drawable.iiiii,
                               R.drawable.image5,
+                              R.drawable.image2,
+                              R.drawable.back,
+                              R.drawable.pic3,
+                              R.drawable.pic4
 
    };
    private  String []  prices =new String[] {
@@ -41,7 +45,7 @@ public class PhotoActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         gridView = (GridView) findViewById(R.id.myGrid);
-        gridView.setAdapter(new ParfumAdapter(this, picture, prices));
+        gridView.setAdapter(new ParfumAdapter(this, picture));
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
