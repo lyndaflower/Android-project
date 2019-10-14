@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.graphics.Picture;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,7 +41,16 @@ public class PhotoActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         gridView = (GridView) findViewById(R.id.myGrid);
-        gridView.setAdapter(new ParfumAdapter(this, picture));
+        gridView.setAdapter(new ParfumAdapter(this, picture, prices));
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+             String roxanne= ((TextView)view).getText().toString();
+
+                Toast.makeText(PhotoActivity.this,roxanne,Toast.LENGTH_SHORT).show();
+            }
+        });
 
         mFill.setOnClickListener(new View.OnClickListener() {
 

@@ -33,13 +33,13 @@ public class AppActivity extends AppCompatActivity {
                 String email = mText2.getText().toString();
                 String location = mText3.getText().toString();
                 String type = mText4.getText().toString();
+
                 Intent choice = new Intent(AppActivity.this,FinalActivity.class);
                 choice.putExtra("name", name);
-                choice.putExtra("email", email);
-                choice.putExtra("location", location);
-                choice.putExtra("type", type);
+                choice.putExtra("email",email);
+                choice.putExtra("location",location);
+                choice.putExtra("type",type);
                 startActivity(choice);
-
             }
         });
     }

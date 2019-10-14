@@ -10,10 +10,10 @@
         android:id="@+id/view1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="name : "
         android:layout_marginLeft="15dp"
         android:layout_marginTop="60dp"
-        />
+        android:fontFamily="@font/alice"
+        android:text="name : " />
 
     <TextView
         android:id="@+id/view2"
