@@ -48,7 +48,7 @@ public class PhotoActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
              String roxanne= ((TextView)view).getText().toString();
 
-                Toast.makeText(PhotoActivity.this,roxanne,Toast.LENGTH_SHORT).show();
+
             }
         });
 

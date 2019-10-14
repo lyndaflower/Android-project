@@ -19,10 +19,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:fontFamily="@font/abril_fatface"
+        android:fontFamily="@font/bevan"
         android:text="LANCOME paris"
+        android:textStyle="bold"
         android:textColor="@color/colorTextIcons"
-        android:textSize="30sp" />
+        android:textSize="35sp" />
 
     <Button
         android:id="@+id/findButton"
